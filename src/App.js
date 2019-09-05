@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
+import { makeStyles } from '@material-ui/core/styles';
 import './App.css';
+import Profile from './Profile.js';
+import Work from './Work.js'
+import Achievement from './Achievement.js'
+
+const useStyles = makeStyles({
+  root: {
+    textAlign: 'center',
+    background: 'black',
+    color: 'white',
+    // width:'80%'
+  },
+  profileblock: {
+    // border: 'solid',
+    width: '100%',
+    borderRadius: '10%'
+  }
+});
 
 function App() {
+  // const classes = useStyles();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div><Profile /></div>
+      <div style={{ display: 'flex', justifyContent: 'center'}}>
+        <div style={{margin:'30px'}}><Work /></div>
+        <div style={{ margin: '30px' }}><Achievement /></div>
+      </div>
     </div>
   );
 }
