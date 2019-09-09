@@ -28,10 +28,10 @@ export default function Profile() {
     const classes = useStyles();
     return (
         <div>
+            <title> ssbsd </title>
             <h1>Hi There, I'm TzlTL!</h1>
             <img src='./images/profileski.jpg' className={classes.img}></img>
             <h2> TzlTL is たけし</h2>
- 
             <div className={classes.root}>
                 <div className={classes.profileblock} style={{ background: 'green' }}>
                     所属：<br />
