@@ -10,7 +10,6 @@ const useStyles = makeStyles({
     textAlign: 'center',
     background: 'black',
     color: 'white',
-    // width:'80%'
   },
   profileblock: {
     // border: 'solid',
@@ -21,7 +20,6 @@ const useStyles = makeStyles({
 
 function App() {
   // const classes = useStyles();
-
   return (
     <div className="App">
       <div><Profile /></div>
