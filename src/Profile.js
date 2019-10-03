@@ -1,19 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-// import { mergeClasses } from '@material-ui/styles';
-// import { borderRadius } from '@material-ui/system';
 
 const useStyles = makeStyles({
   root: {
     display: "flex",
-    // alignItems: 'stretch',
     justifyContent: "center"
-    // width:'70%',
-    // margin:'auto'
   },
   profileblock: {
-    // border: 'solid',
-    // width: '100%',
     width: "max-content",
     height: "max-content",
     borderRadius: "15%",
