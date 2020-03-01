@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     margin: "auto",
   },
   img: {
-    width: "50%",
+    width: "10%",
     borderRadius: "20%"
   },
   movie: {
@@ -28,12 +28,8 @@ export default function Profile() {
     const classes = useStyles();
     return (
       <div>
-        <title> ssbsd </title>
-        <h1>Hi There, I'm TzlTL!</h1>
         <div className={classes.root}>
-          <div style={{ justifyContent: "center" }}>
-            <img src="./images/profileski.jpg" className={classes.img} />
-            <h2> TzlTL is たけし</h2>
+          <div>
             <div
               className={classes.profileblock}
               style={{
@@ -63,26 +59,7 @@ export default function Profile() {
               className={classes.profileblock}
               style={{ background: "blue", margin: 0 }}
             >
-              趣味：
-              <br />
-              スキー，
-              <br />
-              動画編集
-              <br />
-              <iframe
-                className={classes.movie}
-                src="./videos/21yoSkiEdit.MP4"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
-              <iframe
-                className={classes.movie}
-                src="./videos/shootingStarsMeme.MP4"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
+              趣味をここに書く
             </div>
             <div
               className={classes.profileblock}

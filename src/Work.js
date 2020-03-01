@@ -48,8 +48,7 @@ export default function Work() {
                     <Button onClick={handleClick}>Work (Research)</Button>
                     {open ? (
                         <Paper className={classes.paper}>
-                            5G無線通信システムの研究をしています
-                            
+                            研究内容をずらずら
                         </Paper>
                     ) : null}
                 </div>
