@@ -1,32 +1,40 @@
 import React from 'react';
-import './Top.css';
 import { makeStyles } from '@material-ui/core/styles';
 
 
 const useStyles = makeStyles({
     root: {
         display: "flex",
-        justifyContent: "center"
-    },
-    toptitle: {
-        display: "flex",
         width: "100vw",
-        height: "100vh",
+        height: "90vh",
         alignItems: "center",
         justifyContent: "center",
         margin: "0",
         background: "#131313",
         color: "#fff",
-        fontSize: "96px",
-        letterSpacing: "-7px"
+        fontSize: "15vw",
+        letterSpacing: "-2.2vw"
+    },
+    formore: {
+        display: "flex",
+        width: "100vw",
+        height: "10vh",
+        alignItems: "center",
+        justifyContent: "center",
+        margin: "0",
+        background: "#131313",
+        color: "#fff",
+        fontSize: "2vw",
+        letterSpacing: "0.6vw"
     }
-
 });
 
-
-export default function Profile() {
+export default function Top() {
     const classes = useStyles();
-    return ( 
-        <div className = {classes.toptitle}　title = "portfolio"> portfolio < /div>
+    return (
+        <div>
+            <div className={classes.root} title="portfolio"> portfolio </div>
+            <div className={classes.formore}> for more ↓ </div>
+        </div>
     );
 }
