@@ -48,8 +48,7 @@ export default function Achievement() {
                     <Button onClick={handleClick}>Achievement</Button>
                     {open ? (
                         <Paper className={classes.paper}>
-                            Spotify APIを利用してアーティストやアルバムの検索をして，それぞれの人気度を指標として閲覧できるようにしました．
-                            気になるアーティスト，アルバムがあったらチェック！！，
+                            成果物をここにずらずら
 
                         </Paper>
                     ) : null}
