@@ -21,27 +21,26 @@ export default function Languages() {
                     expandIcon={<ExpandMoreIcon className={classes.ExpandMoreIcon} />}
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
-                // style={{ backgroundColor: '#212121' }}
                 >
                     <Typography className={classes.heading}> Languages </Typography>
                     <Typography className={classes.secondaryHeading}> Programming languages I've used </Typography>
                 </ExpansionPanelSummary>
-                    <ExpansionPanelDetails>
+                <ExpansionPanelDetails>
                     <Typography className={classes.detail}>
                         
                         {/* Python */}
-                        <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" className={classes.logoImag} />
+                        <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" className={classes.logoImag} alt='Python Logo'/>
                             &nbsp; Python &nbsp; | Use in Competition programming. (like AtCoder, Paiza)<br />
                         {/* Ruby */}
-                        <img src="https://cdn.worldvectorlogo.com/logos/ruby.svg" className={classes.logoImag} />
+                        <img src="https://cdn.worldvectorlogo.com/logos/ruby.svg" className={classes.logoImag} alt='Ruby Logo'/>
                             &nbsp;&nbsp; Ruby &nbsp;&nbsp; | 
-                            <a href="https://takeshify.herokuapp.com/" target="_blank" className={classes.link}>
+                            <a href="https://takeshify.herokuapp.com/" target="_blank" className={classes.link} rel="noopener noreferrer">
                                 TakesHify</a> | Web app using SpotifyAPI (See below "Developments" for more details.)<br />
                         {/* JavaScript */}
-                        <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" className={classes.logoImag}/>
+                        <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" className={classes.logoImag} alt='JavaScript Logo'/>
                             JavaScript | This portfolio page. Using React.js, Material-UI. <br />
                         {/* Golang */}
-                        <img src="https://blog.golang.org/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" className={classes.logoImag} />
+                        <img src="https://blog.golang.org/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" className={classes.logoImag} id='Go' alt='Golang Logo'/>
                             &nbsp;&nbsp;&nbsp; Go &nbsp;&nbsp;&nbsp; | GOing to develop some kind of app these days.
 
                     </Typography>

@@ -17,24 +17,24 @@ export default function Developments() {
 
     return (
         <div className={classes.root}>
-            {/* <div></div> */}
             <ExpansionPanel expanded={expanded === 'panel'} onChange={handleChange('panel')} className={classes.panel}>
                 <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon className={classes.ExpandMoreIcon} />}
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
-                // style={{ backgroundColor: '#212121' }}
                 >
                     <Typography className={classes.heading}> Developments </Typography>
                     <Typography className={classes.secondaryHeading}> What I've developed </Typography>
                 </ExpansionPanelSummary>
-                <ExpansionPanelDetails className={classes.detail}>
+                <ExpansionPanelDetails>
                     <Typography className={classes.detail}>
+
                         <span className={classes.article}>
-                            <a href='https://takeshify.herokuapp.com/' className={classes.link}>Takeshify</a>:
+                            <a href='https://takeshify.herokuapp.com/' className={classes.link}>TakesHify</a>:
                         </span> <br />
-                        First app I developed. <br /> Go check this app out!<br />
-                        <img src={TakeshifyGIF} className={classes.appimg} /> <br />
+                        First app I developed. <br /> Go link and check it out!<br />
+                        <img src={TakeshifyGIF} className={classes.AppImg} alt='TakesHify'/>
+                        <br />
                         You can check popularity, followers of your favorite artists on Spotify. <br />
                         Using Spotify API, Ruby on Rails, Bootstrap.<br />
 

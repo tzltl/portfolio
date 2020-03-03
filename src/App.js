@@ -3,6 +3,7 @@ import Top from './components/Top.js';
 import Career from './components/Career.js';
 import Languages from './components/Languages.js';
 import Developments from './components/Developments.js';
+import './App.css'
 
 function App() {
 

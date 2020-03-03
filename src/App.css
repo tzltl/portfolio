@@ -1,7 +1,8 @@
 
-/* body {
+body {
+  font-family: 'Courier New', Courier, monospace;
   background: #131313;
-} */
+}
 
 .App {
   text-align: center;
@@ -44,7 +45,7 @@
 /* Top css */
 div {
   animation: glitch 1s linear infinite;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
 }
 
 /* @keyframes glitch{

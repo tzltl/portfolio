@@ -1,9 +1,7 @@
 /* Top css */
-div {
+/* div { */
   /* animation: glitch 1s linear infinite; */
-  font-family: 'Courier New', Courier, monospace;
-  background: #131313;
-}
+/* } */
 
 /* @keyframes glitch{
   2%,64%{
