@@ -31,7 +31,7 @@ export default function Developments() {
                 <ExpansionPanelDetails className={classes.detail}>
                     <Typography className={classes.detail}>
                         <span className={classes.article}>
-                            <a href='https://takeshify.herokuapp.com/'>Takeshify</a>:
+                            <a href='https://takeshify.herokuapp.com/' className={classes.link}>Takeshify</a>:
                         </span> <br />
                         First app I developed. <br /> Go check this app out!<br />
                         <img src={TakeshifyGIF} className={classes.appimg} /> <br />

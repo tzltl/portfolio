@@ -46,7 +46,10 @@ const useStyles = makeStyles(theme => ({
         marginInline: '1vw',
         marginBlock: '1vh',
         verticalAlign:'middle'
-    }
+    },
+    link:{
+        color: 'lightskyblue',
+    },
 }));
 
 export default useStyles;

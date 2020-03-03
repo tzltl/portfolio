@@ -35,7 +35,8 @@ export default function Languages() {
                         {/* Ruby */}
                         <img src="https://cdn.worldvectorlogo.com/logos/ruby.svg" className={classes.logoImag} />
                             &nbsp;&nbsp; Ruby &nbsp;&nbsp; | 
-                            <a href="https://takeshify.herokuapp.com/" target="_blank" >TakesHify</a> | Web app using SpotifyAPI (See below "Developments" for more details.)<br />
+                            <a href="https://takeshify.herokuapp.com/" target="_blank" className={classes.link}>
+                                TakesHify</a> | Web app using SpotifyAPI (See below "Developments" for more details.)<br />
                         {/* JavaScript */}
                         <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" className={classes.logoImag}/>
                             JavaScript | This portfolio page. Using React.js, Material-UI. <br />
