@@ -16,7 +16,7 @@ export default function Developments() {
     };
 
     return (
-        <div className={classes.root}>
+        <div>
             <ExpansionPanel expanded={expanded === 'panel'} onChange={handleChange('panel')} className={classes.panel}>
                 <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon className={classes.ExpandMoreIcon} />}

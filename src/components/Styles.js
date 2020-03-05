@@ -4,8 +4,8 @@ const useStyles = makeStyles(theme => ({
     root: {
         paddingBlock: '0.5vh',
         textAlign: 'left',
-        marginInline: '2vw',
-        
+        // marginInline: '2vw',
+        margin: '1% 2%',
     },
     heading: {
         fontSize: "2vh",
