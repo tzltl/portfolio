@@ -23,9 +23,9 @@ export default function Career() {
                     id="panel1bh-header"
                 >
                     <Typography className={classes.heading}> About me </Typography>
-                    <Typography className={classes.secondaryHeading}> and my career </Typography>
+                    <Typography className={classes.secondaryHeading}> and my education </Typography>
                 </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
+                <ExpansionPanelDetails className={classes.ExpansionPanelDetails}>
                     <Typography className={classes.detail} >
                         
                         Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Takeshi Tasaki (田㟢威司) <br/>

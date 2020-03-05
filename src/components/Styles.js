@@ -2,8 +2,10 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
     root: {
-        paddingBottom: '1vh',
+        paddingBlock: '0.5vh',
         textAlign: 'left',
+        marginInline: '2vw',
+        
     },
     heading: {
         fontSize: "2vh",
@@ -11,29 +13,35 @@ const useStyles = makeStyles(theme => ({
         flexShrink: 0,
         fontWeight: 'bold',
         fontFamily: 'inherit',
+        marginBlock: 'auto',
     },
     secondaryHeading: {
+        color: "#909090",
         fontSize: "2vh",
-        color: theme.palette.text.secondary,
         fontFamily: 'inherit',
+        margin: 'auto 0 auto 7vw',
     },
     panel: {
-        marginInline: '1vw',
+        marginInline: '2vw',
         backgroundColor: "#131313",
         color: "#fff",
         border: 'thin solid #fff',
         fontSize: "2vh",
+        textAlign: 'left',
+    },
+    ExpansionPanelDetails:{
+        paddingTop:'0',
+        marginInline:'auto',
     },
     detail: {
-        width: '90vw',
+        width: '100vw',
         backgroundColor: "#202020",
-        // backgroundColor: "#fff",
         color: "inherit",
         fontSize: "inherit",
         fontFamily: 'inherit',
-        marginInline: 'auto',
+        margin:'0 auto 1vh auto',
         borderRadius: "1rem",
-        padding: '0.3rem 0.5rem',
+        padding: '0.3rem 0.5rem 0.3rem 0.5rem',
         boxShadow:'1vh 1vw #393939',
     },
     ExpandMoreIcon: {
@@ -43,8 +51,8 @@ const useStyles = makeStyles(theme => ({
         fontWeight: '600',
     },
     AppImg: {
-        width: '75vw',
-        marginInline: '7.5vw',
+        width: '80%',
+        paddingLeft: '10%',
     },
     logoImag: {
         maxHeight: '3vh',

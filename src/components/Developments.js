@@ -26,7 +26,7 @@ export default function Developments() {
                     <Typography className={classes.heading}> Developments </Typography>
                     <Typography className={classes.secondaryHeading}> What I've developed </Typography>
                 </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
+                <ExpansionPanelDetails className={classes.ExpansionPanelDetails}>
                     <Typography className={classes.detail}>
 
                         <span className={classes.article}>
