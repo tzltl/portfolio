@@ -32,9 +32,10 @@ const useStyles = makeStyles(theme => ({
     ExpansionPanelDetails:{
         paddingTop:'0',
         marginInline:'auto',
+        display:'block',
     },
     detail: {
-        width: '100vw',
+        width: '90%',
         backgroundColor: "#202020",
         color: "inherit",
         fontSize: "inherit",
@@ -42,7 +43,17 @@ const useStyles = makeStyles(theme => ({
         margin:'0 auto 1vh auto',
         borderRadius: "1rem",
         padding: '0.3rem 0.5rem 0.3rem 0.5rem',
-        boxShadow:'1vh 1vw #393939',
+        boxShadow:'1vw 1vh #393939',
+        
+        '&#progLang':{
+            marginBottom:'3vh',
+        },
+        '&#frmwrk': {
+            marginBottom: '3vh',
+        },
+        '&#github': {
+            marginBottom: '0',
+        },
     },
     ExpandMoreIcon: {
         color: '#fff'
@@ -55,16 +66,33 @@ const useStyles = makeStyles(theme => ({
         paddingLeft: '10%',
     },
     logoImag: {
-        maxHeight: '3vh',
+        maxWidth: '3vh',
         margin: '1vh 1vw',
         verticalAlign: 'middle',
         "&#Go": {
-            maxHeight: '5vh',
-            margin: '0',
-        }
+            maxWidth: '5vh',
+            marginLeft: '0.5vw',
+        },
+        "&#rails": {
+            // maxHeight: '4vh',
+            marginLeft: '1.2vw',
+        },
+        "&#react": {
+            maxWidth: '4vh',
+        },
+        "&#github": {
+            maxWidth: '5vh',
+            marginLeft: '1vw',
+        },
     },
     link: {
         color: 'lightskyblue',
+    },
+
+    contact:{
+        width:'50%',
+        display:'inline-block',
+        textAlign:'center',
     },
 }));
 

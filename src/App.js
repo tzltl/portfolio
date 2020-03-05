@@ -3,6 +3,7 @@ import Top from './components/Top.js';
 import Career from './components/Career.js';
 import Skills from './components/Skills.js';
 import Developments from './components/Developments.js';
+import Contact from './components/Contact.js';
 import './App.css'
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       <div style={{ marginTop: "1vh" }}><Top /></div>
       <div><Career /></div>
       <div><Skills /></div>
-      <div style={{paddingBottom:'3vw',background:'#131313'}}><Developments /></div>
+      <div><Developments /></div>
+      <div><Contact /></div>
+      <div style={{ paddingBottom: '3vw', background: '#131313' }} />
     </div>
   );
 }

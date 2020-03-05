@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import './Top.css';
+import '../App.css';
 
 const useStyles = makeStyles({
     root: {

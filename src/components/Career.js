@@ -27,11 +27,11 @@ export default function Career() {
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails className={classes.ExpansionPanelDetails}>
                     <Typography className={classes.detail} >
-                        
-                        Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Takeshi Tasaki (田㟢威司) <br/>
+
+                        Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Tasaki Takeshi (田㟢威司) <br />
                         Birth Date : 1997/03/21 <br />
                         Born in Minamiuonuma, Niigata pref, Japan.<br />
-                        <br/>
+                        <br />
                         2012 Apr ~ 2015 Mar: Niigata Prefectural Muikamachi-Senior High School <br />
                         2015 Apr ~ 2019 Mar: Department of Electrical and Electronic Engineering, Niigata University <br />
                         2019 Apr ~ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Graduate School of Science and Technology, Niigata University<br />
