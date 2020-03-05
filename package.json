@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tzltl.github.io/portfolio",
+  "homepage": ".",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.1",
     "gh-pages": "^2.2.0"
   }
 }
