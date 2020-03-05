@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tzltl.github.io/portfolio",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
@@ -9,7 +10,6 @@
     "react-dom": "^16.13.0",
     "react-scripts": "3.1.1"
   },
-  "homepage": "https://tzltl.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
