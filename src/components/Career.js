@@ -28,7 +28,7 @@ export default function Career() {
                 <ExpansionPanelDetails className={classes.ExpansionPanelDetails}>
                     <Typography className={classes.detail} >
 
-                        Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Tasaki Takeshi (田㟢威司) <br />
+                        Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Tasaki Takeshi (田㟢 威司) <br />
                         Birth Date : 1997/03/21 <br />
                         Born in Minamiuonuma, Niigata pref, Japan.<br />
                         <br />

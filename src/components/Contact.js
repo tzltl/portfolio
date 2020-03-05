@@ -29,7 +29,7 @@ export default function Contact() {
 
                         <div className={classes.contact}>
                             <img src="https://cdn.worldvectorlogo.com/logos/facebook-3.svg" alt="Facebook logo" className={classes.logoImag} id='facebook' />
-                            Facebook: <a href="https://www.facebook.com/tasakeshi" target="_blank" className={classes.link} rel="noopener noreferrer">tasaki takeshi (田㟢 威司)</a>
+                            Facebook: <a href="https://www.facebook.com/tasakeshi" target="_blank" className={classes.link} rel="noopener noreferrer">Tasaki Takeshi (田㟢 威司)</a>
                         </div>
 
                         <div className={classes.contact}>

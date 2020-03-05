@@ -40,7 +40,7 @@ export default function Languages() {
 
                         {/* JavaScript */}
                         <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" className={classes.logoImag} alt='JavaScript Logo' />
-                        JavaScript | Using in some summer internship. Node.js, React.js.<br />
+                        JavaScript | Using in some summer internships. Node.js, React.js.<br />
 
                         {/* Golang */}
                         <img src="https://blog.golang.org/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" className={classes.logoImag} id='Go' alt='Golang Logo' />
