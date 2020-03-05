@@ -1,10 +1,9 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '../../node_modules/@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
     root: {
         paddingBlock: '0.5vh',
         textAlign: 'left',
-        // marginInline: '2vw',
         margin: '1% 2%',
     },
     heading: {
@@ -74,7 +73,6 @@ const useStyles = makeStyles(theme => ({
             marginLeft: '0.5vw',
         },
         "&#rails": {
-            // maxHeight: '4vh',
             marginLeft: '1.2vw',
         },
         "&#react": {
@@ -88,7 +86,6 @@ const useStyles = makeStyles(theme => ({
     link: {
         color: 'lightskyblue',
     },
-
     contact:{
         width:'50%',
         display:'inline-block',

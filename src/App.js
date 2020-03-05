@@ -1,12 +1,12 @@
 import React from 'react';
-import Top from './components/Top.js';
-import Career from './components/Career.js';
-import Skills from './components/Skills.js';
-import Developments from './components/Developments.js';
-import Contact from './components/Contact.js';
+import Top from './Components/Top.js';
+import Career from './Components/Career.js';
+import Skills from './Components/Skills.js';
+import Developments from './Components/Developments.js';
+import Contact from './Components/Contact.js';
+import Footer from './Components/Footer.js';
 import './App.css'
-import useStyles from './components/Styles.js';
-// import classes from '*.module.css';
+import useStyles from './Components/Styles.js';
 
 function App() {
   const classes = useStyles();
@@ -18,7 +18,7 @@ function App() {
       <div className={classes.root}><Skills /></div>
       <div className={classes.root}><Developments /></div>
       <div className={classes.root}><Contact /></div>
-      <div style={{ paddingBottom: '3vw', background: '#131313' }} />
+      <div className={classes.root}><Footer /></div>
     </div>
   );
 }
