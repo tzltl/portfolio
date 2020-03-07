@@ -1,12 +1,12 @@
 import React from 'react';
-import Top from './Components/Top.js';
-import Bio from './Components/Bio.js';
-import Skills from './Components/Skills.js';
-import Developments from './Components/Developments.js';
-import Contact from './Components/Contact.js';
-import Footer from './Components/Footer.js';
+import Top from './components/Top.js';
+import Bio from './components/Bio.js';
+import Skills from './components/Skills.js';
+import Developments from './components/Developments.js';
+import Contact from './components/Contact.js';
+import Footer from './components/Footer.js';
 import './App.css'
-import useStyles from './Components/Styles.js';
+import useStyles from './components/Styles.js';
 
 function App() {
   const classes = useStyles();
