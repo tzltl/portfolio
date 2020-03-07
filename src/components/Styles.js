@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     ExpansionPanelDetails: {
         paddingTop: '0',
         marginInline: 'auto',
-        display: 'flex',
+        display: 'block',
         flexWrap: 'wrap',
         justifyContent: 'space-between',
     },
