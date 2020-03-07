@@ -25,7 +25,12 @@ export default function Contact() {
                     <Typography className={classes.heading}> Contact </Typography>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails className={classes.ExpansionPanelDetails}>
-                    <Typography className={classes.detail} >
+                    <Typography className={classes.detail} 
+                    style={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        justifyContent: 'space-around',
+                    }}>
 
                         <div className={classes.contact}>
                             <img src="https://cdn.worldvectorlogo.com/logos/facebook-3.svg" alt="Facebook logo" className={classes.logoImag} id='facebook' />

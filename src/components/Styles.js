@@ -28,10 +28,12 @@ const useStyles = makeStyles(theme => ({
         fontSize: "2vh",
         textAlign: 'left',
     },
-    ExpansionPanelDetails:{
-        paddingTop:'0',
-        marginInline:'auto',
-        display:'block',
+    ExpansionPanelDetails: {
+        paddingTop: '0',
+        marginInline: 'auto',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
     },
     detail: {
         width: '90%',
@@ -39,13 +41,13 @@ const useStyles = makeStyles(theme => ({
         color: "inherit",
         fontSize: "inherit",
         fontFamily: 'inherit',
-        margin:'0 auto 1vh auto',
+        margin: '0 auto 1vh auto',
         borderRadius: "1rem",
         padding: '0.3rem 0.5rem 0.3rem 0.5rem',
-        boxShadow:'1vw 1vh #393939',
-        
-        '&#progLang':{
-            marginBottom:'3vh',
+        boxShadow: '1vw 1vh #393939',
+
+        '&#progLang': {
+            marginBottom: '3vh',
         },
         '&#frmwrk': {
             marginBottom: '3vh',
@@ -53,6 +55,7 @@ const useStyles = makeStyles(theme => ({
         '&#github': {
             marginBottom: '0',
         },
+
     },
     ExpandMoreIcon: {
         color: '#fff'
@@ -85,11 +88,6 @@ const useStyles = makeStyles(theme => ({
     },
     link: {
         color: 'lightskyblue',
-    },
-    contact:{
-        width:'50%',
-        display:'inline-block',
-        textAlign:'center',
     },
 }));
 

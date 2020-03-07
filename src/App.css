@@ -12,10 +12,10 @@ body {
 }
 
 /* Top css */
-div {
+/* div {
   animation: glitch 1s linear infinite;
   font-family: 'Courier New', Courier, monospace, sans-serif;
-}
+} */
 
 /* @keyframes glitch{
   2%,64%{
@@ -29,10 +29,14 @@ div {
   }
 } */
 
-div:before,
+div:before{
+  content: attr(title);
+  position: absolute;
+}
 div:after {
   content: attr(title);
   position: absolute;
+  display: -webkit-flex;
 }
 
 div:before {

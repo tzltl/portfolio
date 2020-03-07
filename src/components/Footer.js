@@ -15,11 +15,6 @@ const useStyles=makeStyles({
 
 export default function Footer() {
     const classes = useStyles();
-    const [expanded, setExpanded] = React.useState(false);
-
-    const handleChange = panel => (event, isExpanded) => {
-        setExpanded(isExpanded ? panel : false);
-    };
 
     return (
         <div>
