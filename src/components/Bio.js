@@ -1,9 +1,9 @@
 import React from '../../node_modules/react';
-import ExpansionPanel from './node_modules/@material-ui/core/ExpansionPanel';
-import ExpansionPanelDetails from './node_modules/@material-ui/core/ExpansionPanelDetails';
-import ExpansionPanelSummary from './node_modules/@material-ui/core/ExpansionPanelSummary';
-import Typography from './node_modules/@material-ui/core/Typography';
-import ExpandMoreIcon from './node_modules/@material-ui/icons/ExpandMore';
+import ExpansionPanel from '../../node_modules/@material-ui/core/ExpansionPanel';
+import ExpansionPanelDetails from '../../node_modules/@material-ui/core/ExpansionPanelDetails';
+import ExpansionPanelSummary from '../../node_modules/@material-ui/core/ExpansionPanelSummary';
+import Typography from '../../node_modules/@material-ui/core/Typography';
+import ExpandMoreIcon from '../../node_modules/@material-ui/icons/ExpandMore.js';
 import useStyles from './Styles.js';
 
 export default function Bio() {
