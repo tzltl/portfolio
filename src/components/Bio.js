@@ -1,4 +1,4 @@
-import React from './node_modules/react';
+import React from '../../node_modules/react';
 import ExpansionPanel from './node_modules/@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from './node_modules/@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from './node_modules/@material-ui/core/ExpansionPanelSummary';
