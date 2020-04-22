@@ -36,7 +36,7 @@ export default function Bio() {
                         2015 Apr ~ 2019 Mar: Department of Electrical and Electronic Engineering, Niigata University <br />
                         2019 Apr ~ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Graduate School of Science and Technology, Niigata University<br />
                         ...<br />
-                        2021 Apr~: Work for an IT company as a software engineer
+                        2021 Apr~: Work for tech company as a software engineer
 
                     </Typography>
                 </ExpansionPanelDetails>
