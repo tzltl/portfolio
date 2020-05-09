@@ -6,7 +6,7 @@ import Typography from '../../node_modules/@material-ui/core/Typography';
 import ExpandMoreIcon from '../../node_modules/@material-ui/icons/ExpandMore.js';
 import useStyles from './Styles.js';
 
-export default function Languages() {
+export default function Skills() {
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
 
@@ -42,6 +42,10 @@ export default function Languages() {
                         <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" className={classes.logoImag} alt='JavaScript Logo' />
                         JavaScript | Using in some summer internships. Node.js, React.js.<br />
 
+                        {/* TypeScript */}
+                        <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" className={classes.logoImag} alt='JavaScript Logo' />
+                        TypeScript | React.js, React Native.<br />
+
                         {/* Golang */}
                         <img src="https://blog.golang.org/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" className={classes.logoImag} id='Go' alt='Golang Logo' />
                         &nbsp;&nbsp; Go &nbsp;&nbsp;&nbsp; | GOing to develop some kind of app these days. <br />
@@ -61,7 +65,7 @@ export default function Languages() {
                             <a href="https://takeshify.herokuapp.com/" target="_blank" className={classes.link} rel="noopener noreferrer">
                             TakesHify</a> | Web app using SpotifyAPI (See below "Developments" for more details.)<br />
 
-                        {/* JavaScript */}
+                        {/* React.js */}
                         <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" className={classes.logoImag} alt='React.js Logo' id='react' />
                         &nbsp;&nbsp;React.js &nbsp;&nbsp;| This portfolio page. Using React.js, Material-UI. <br />
 
