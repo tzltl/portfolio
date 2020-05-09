@@ -40,7 +40,7 @@ export default function Skills() {
 
                         {/* JavaScript */}
                         <img src="https://cdn.worldvectorlogo.com/logos/javascript.svg" className={classes.logoImag} alt='JavaScript Logo' />
-                        JavaScript | Using in some summer internships. Node.js, React.js.<br />
+                        JavaScript | Used in some summer internships. Node.js, React.js.<br />
 
                         {/* TypeScript */}
                         <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" className={classes.logoImag} alt='JavaScript Logo' />
